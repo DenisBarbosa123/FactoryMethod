@@ -7,7 +7,7 @@ Você possui uma empresa de Transportes, ambas as classes Caminhão e Barco deve
 
 O código que usa o método factory (cliente) não vê diferença entre os produtos reais retornados por várias subclasses. O cliente trata todos os produtos como um Transporte. O cliente sabe que todos os objetos de transporte devem ter o método entregar, mas como exatamente ele funciona não é importante para o cliente.
 
-[Exemplo de diagrama de class exemplificando como ficaria estrutura do Factory Method]https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png
+[Exemplo de diagrama de class exemplificando como ficaria estrutura do Factory Method](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
 
 ### Exemplo Prático
 Interface do produto
@@ -119,4 +119,4 @@ public class Runner {
 - Fácil manutenção, pois para adicionar por exemplo mais um produto especifico, bastante implementar a classe genérica do produto e criar um criador para ele, sem mexer no resto do código.
 - Evita acoplamento entre produto e criador
 
-[Para mais informações]https://refactoring.guru/pt-br/design-patterns/factory-method
+[Para mais informações](https://refactoring.guru/pt-br/design-patterns/factory-method)
